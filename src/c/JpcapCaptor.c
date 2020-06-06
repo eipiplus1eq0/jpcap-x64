@@ -929,7 +929,7 @@ void set_Java_env(JNIEnv *env){
   handleMID=(*env)->GetMethodID(env,JpcapHandler,"receivePacket",
 				"(Ljpcap/packet/Packet;)V");
   setPacketValueMID=(*env)->GetMethodID(env,Packet,"setPacketValue",
-					"(JJII)V");
+					"(JJIIILjava/lang/String;)V");
   setDatalinkPacketMID=(*env)->GetMethodID(env,Packet,"setDatalinkPacket",
 					   "(Ljpcap/packet/DatalinkPacket;)V");
   setPacketHeaderMID=(*env)->GetMethodID(env,Packet,"setPacketHeader","([B)V");
