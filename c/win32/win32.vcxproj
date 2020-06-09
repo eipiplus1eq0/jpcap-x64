@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>Jpcap</ProjectName>
+    <ProjectName>jpcap</ProjectName>
     <ProjectGuid>{3BA001AB-C6F1-4434-9F18-039B69AFF2F8}</ProjectGuid>
     <RootNamespace>win32</RootNamespace>
     <Keyword>Win32Proj</Keyword>
